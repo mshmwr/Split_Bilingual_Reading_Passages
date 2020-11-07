@@ -1,0 +1,58 @@
+#input {
+  float: left;
+  width: 30%;
+  margin-right: 2em;
+}
+#input div {
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+p {
+  background-color: rgb(133, 212, 171);
+}
+
+/*border_line*/
+
+textarea {
+  width: 100%;
+  height: 10vh;
+}
+
+.resultText textarea {
+  width: 100%;
+  height: 100vh;
+}
+
+/*input area*/
+
+.input {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(110, 58, 255);
+  justify-content: center; /*物件顯示置中*/
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+/*result area*/
+.row {
+  display: flex; /*使用flexbox*/
+  flex-wrap: wrap; /*超出範圍時是否換行的屬性*/
+  justify-content: center; /*物件顯示置中*/
+  background-color: rgb(83, 80, 72);
+}
+.result {
+  width: 45%;
+  margin: 0 auto;
+  background-color: rgb(133, 212, 171);
+}
+.resultText {
+  background-color: rgb(243, 252, 243);
+  width: 100%;
+  height: 100vh;
+}
